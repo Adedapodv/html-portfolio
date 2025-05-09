@@ -1,26 +1,124 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dapo's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
 
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Dapo's Portfolio</title>
-    </head>
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 30px 20px;
+    }
 
-    <body>
-        <h1>Dapo's Portfolio</h1>
-        <h2>I'm a Web Developer</h2>
-    <hr/>
-    <a href="./public/movie-ranking.html"><h3>Movie Ranking</h3></a>
-    <img src="./assets/images/Screenshot 2025-04-24 at 16.28.35.png" height="250"/>
-    <a href="./public/birthday-invite.html"><h3>Birthday Invite Project</h3></a>
-    <img src="./assets/images/Birthday-invitee.png" height="250"/>
-    <hr/>
-    <br/>
-    <a href="./public/about.html">About Me</a> <a href="./public/contact.html">Contact Me</a>
-    </body>
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
 
+    header h2 {
+      margin-top: 10px;
+      font-weight: normal;
+      color: #ccc;
+    }
+
+    .project {
+      background-color: #fff;
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+
+    .project img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #007BFF;
+    }
+
+    .buttons {
+      margin-top: 15px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      margin: 5px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Dapo's Portfolio</h1>
+    <h2>I'm a Web Developer</h2>
+  </header>
+
+  <div class="project">
+    <h3>Movie Ranking Project</h3>
+    <img src="./assets/images/Screenshot 2025-04-24 at 16.28.35.png" alt="Movie Ranking Screenshot" />
+    <div class="buttons">
+      <a href="./public/movie-ranking.html">View Project</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Birthday Invite Project</h3>
+    <img src="./assets/images/Birthday-invitee.png" alt="Birthday Invite Screenshot" />
+    <div class="buttons">
+      <a href="./public/birthday-invite.html">View Project</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>IT Team Task Scheduler</h3>
+    <p>A clean and styled site to help IT teams manage and schedule tasks efficiently with real-world productivity tools linked.</p>
+    <div class="buttons">
+      <a href="PASTE_YOUR_IT_SCHEDULER_LINK_HERE" target="_blank">View Project</a>
+    </div>
+  </div>
+
+  <footer>
+    <a href="./public/about.html">About Me</a> | 
+    <a href="./public/contact.html">Contact Me</a><br/><br/>
+    &copy; 2025 Dapo's Portfolio. All rights reserved.
+  </footer>
+
+</body>
 </html>
-
 
 
 
